@@ -2,8 +2,8 @@ import socket
 import threading
 import pyaudio
 
-ip="127.0.0.1"
-port = 12345
+ip="IP"
+port = 0 #YOUR PORT
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 p = pyaudio.PyAudio()
